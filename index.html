@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Graphic & Motion Graphic Designer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="logo">DESIGNER<span>.NAME</span></a>
+      <nav class="nav-links">
+        <a href="#workplaces">Workplaces</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <p class="tagline">Graphic Designer & Motion Graphic Artist</p>
+      <h1 class="hero-title">Visuals That Move.<br>Designs That Resonate.</h1>
+      <p class="hero-desc">
+        รวมผลงานการออกแบบกราฟิกและโมชันกราฟิก จัดตามแต่ละสถานที่ทำงานและบทบาทหน้าที่
+      </p>
+      <div class="hero-cta">
+        <a href="#workplaces" class="btn primary-btn">ดูผลงาน</a>
+        <a href="#contact" class="btn secondary-btn">ติดต่อเรา</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content: Workplaces -->
+  <main id="workplaces" class="workplaces-section">
+    <div class="container">
+
+      <!-- Workplace Item 1 -->
+      <article class="workplace-card" id="company-1">
+        <div class="workplace-header">
+          <div class="company-badge">2023 - Present</div>
+          <h2 class="company-name">Studio Alpha Creative</h2>
+          <p class="company-role">Senior Graphic & Motion Designer</p>
+          <p class="company-summary">
+            ดูแลงานวิชวลอัตลักษณ์องค์กร สื่อการตลาดออนไลน์ บิลบอร์ด และผลิตแอนิเมชันสำหรับเปิดตัวผลิตภัณฑ์
+          </p>
+        </div>
+
+        <!-- Part 1: Graphic Design Session -->
+        <section class="sub-session graphic-session">
+          <div class="session-title-wrap">
+            <span class="session-indicator"></span>
+            <h3 class="session-title">Graphic Design Works</h3>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item" onclick="openLightbox(this)">
+              <div class="item-visual placeholder-image">
+                <span class="visual-label">Project Image 01</span>
+              </div>
+              <figcaption class="item-info">
+                <h4>Brand Key Visual</h4>
+                <p>Branding / Campaign Key Visual</p>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" onclick="openLightbox(this)">
+              <div class="item-visual placeholder-image">
+                <span class="visual-label">Project Image 02</span>
+              </div>
+              <figcaption class="item-info">
+                <h4>Packaging & Print Media</h4>
+                <p>Product Design / Print</p>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" onclick="openLightbox(this)">
+              <div class="item-visual placeholder-image">
+                <span class="visual-label">Project Image 03</span>
+              </div>
+              <figcaption class="item-info">
+                <h4>Social Media Marketing</h4>
+                <p>Visual Concept / Digital Content</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!-- Part 2: Motion Graphic Session -->
+        <section class="sub-session motion-session">
+          <div class="session-title-wrap">
+            <span class="session-indicator motion-indicator"></span>
+            <h3 class="session-title">Motion Graphic Works</h3>
+          </div>
+          <div class="video-grid">
+            <div class="video-card">
+              <div class="video-wrapper">
+                <!-- สามารถแทนที่ด้วยแท็ก <video> หรือ <iframe> จาก YouTube/Vimeo -->
+                <div class="video-placeholder">
+                  <span class="play-icon">▶</span>
+                  <p>Product Launch Teaser (16:9)</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <h4>Product Launch Teaser</h4>
+                <p>3D Motion / Dynamic Typography / Sound Design</p>
+              </div>
+            </div>
+
+            <div class="video-card">
+              <div class="video-wrapper">
+                <div class="video-placeholder">
+                  <span class="play-icon">▶</span>
+                  <p>Logo Animation & Brand Sting (16:9)</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <h4>Logo Animation & Idents</h4>
+                <p>2D Kinetic Typography / Brand Identity</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Workplace Item 2 -->
+      <article class="workplace-card" id="company-2">
+        <div class="workplace-header">
+          <div class="company-badge">2021 - 2023</div>
+          <h2 class="company-name">Beta Media Agency</h2>
+          <p class="company-role">Graphic & Motion Designer</p>
+          <p class="company-summary">
+            พัฒนาสื่อโฆษณาโซเชียลมีเดียทั้งภาพนิ่งและวิดีโอสั้น (Short-form video) สำหรับแบรนด์ FMCG และอีคอมเมิร์ซ
+          </p>
+        </div>
+
+        <!-- Part 1: Graphic Design Session -->
+        <section class="sub-session graphic-session">
+          <div class="session-title-wrap">
+            <span class="session-indicator"></span>
+            <h3 class="session-title">Graphic Design Works</h3>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item" onclick="openLightbox(this)">
+              <div class="item-visual placeholder-image">
+                <span class="visual-label">Project Image 04</span>
+              </div>
+              <figcaption class="item-info">
+                <h4>Campaign Poster Series</h4>
+                <p>Art Direction / Typography</p>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item" onclick="openLightbox(this)">
+              <div class="item-visual placeholder-image">
+                <span class="visual-label">Project Image 05</span>
+              </div>
+              <figcaption class="item-info">
+                <h4>OOH Billboard Design</h4>
+                <p>Outdoor Media / High-res Artwork</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!-- Part 2: Motion Graphic Session -->
+        <section class="sub-session motion-session">
+          <div class="session-title-wrap">
+            <span class="session-indicator motion-indicator"></span>
+            <h3 class="session-title">Motion Graphic Works</h3>
+          </div>
+          <div class="video-grid">
+            <div class="video-card">
+              <div class="video-wrapper">
+                <div class="video-placeholder">
+                  <span class="play-icon">▶</span>
+                  <p>Social Media Ads (Reels / TikTok 9:16 or 16:9)</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <h4>Seasonal Promo Ads</h4>
+                <p>Motion Graphics / Social Content / Fast Cuts</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- About / Skills Section -->
+  <section id="about" class="about-section">
+    <div class="container about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          นักออกแบบกราฟิกและโมชันกราฟิก มุ่งเน้นการสร้างสรรค์ผลงานที่ผสมผสานความสวยงามเชิงทัศนศิลป์เข้ากับการสื่อสารทางการตลาดที่มีประสิทธิภาพ
+        </p>
+      </div>
+      <div class="skills-list">
+        <h3>Core Tools & Skills</h3>
+        <ul>
+          <li>Adobe After Effects / Premiere Pro</li>
+          <li>Adobe Photoshop / Illustrator</li>
+          <li>Blender / Cinema 4D</li>
+          <li>Art Direction & Storyboarding</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Footer -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-content">
+      <h2>Let's create something impactful together.</h2>
+      <p>สนใจร่วมงานหรือสอบถามข้อมูลเพิ่มเติม</p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com" class="contact-item">your.email@example.com</a>
+        <a href="#" class="contact-item">Behance</a>
+        <a href="#" class="contact-item">LinkedIn</a>
+        <a href="#" class="contact-item">Vimeo / YouTube</a>
+      </div>
+      <p class="copyright">© 2026 Designer Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Full View Images -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox(event)">&times;</button>
+      <div id="lightbox-body"></div>
+      <p id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
